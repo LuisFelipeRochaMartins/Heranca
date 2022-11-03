@@ -5,21 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a20d5b1c-d4ec-4d13-8963-b9df130ee1ab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heranca.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item/Midia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Item/VHS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa/PessoaJuridica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambiente/AmbienteM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambiente/Banheiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambiente/Cozinha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambiente/Quarto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ambiente/Sala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BombaCombustivel/Bomba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BombaCombustivel/BombaDiesel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BombaCombustivel/BombaEtanol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BombaCombustivel/BombaGasolina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conta/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conta/ContaEspecial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Conta/ContaSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Escola/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Escola/Pessoa1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Escola/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NaveEspacial/Apolo11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NaveEspacial/MillenniumFalcon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NaveEspacial/Nave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculo/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculo/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculo/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Veiculo/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +55,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.21221532&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,5 +75,8 @@
       <updated>1667418785486</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
