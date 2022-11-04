@@ -2,6 +2,14 @@ package Item;
 
 public class Midia extends Item{
 
+    public Midia(){
+
+    }
+    public Midia(String gravadora,float duracao){
+        setDuracao(duracao);
+        setGravadora(gravadora);
+    }
+
     private String gravadora;
 
     private float duracao;
@@ -11,7 +19,8 @@ public class Midia extends Item{
     }
 
     public void setGravadora(String gravadora) {
-        this.gravadora = gravadora;
+        if (gravadora.length()>0)
+            this.gravadora = gravadora;
     }
 
     public float getDuracao() {
@@ -23,11 +32,13 @@ public class Midia extends Item{
             this.duracao = duracao;
         }
     }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("Midia{");
         sb.append("gravadora='").append(gravadora).append('\'');
         sb.append(", duracao=").append(duracao);
+        sb.append(super.toString());
         sb.append('}');
         return sb.toString();
     }

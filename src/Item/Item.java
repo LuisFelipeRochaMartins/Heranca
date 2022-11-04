@@ -6,12 +6,21 @@ public class Item {
 
     private String descricao;
 
+    public Item(){
+
+    }
+    public Item(int codigo,String descricao){
+        setCodigo(codigo);
+        setDescricao(descricao);
+    }
+
     public int getCodigo() {
         return codigo;
     }
 
     public void setCodigo(int codigo) {
-        this.codigo = codigo;
+        if(codigo>0)
+            this.codigo = codigo;
     }
 
     public String getDescricao() {
@@ -19,7 +28,8 @@ public class Item {
     }
 
     public void setDescricao(String descricao) {
-        this.descricao = descricao;
+        if (descricao.length()>0)
+            this.descricao = descricao;
     }
 
     @Override
